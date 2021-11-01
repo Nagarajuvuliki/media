@@ -1,0 +1,26 @@
+from django.contrib import admin
+from .models import *
+
+admin.site.register(Batch)  
+admin.site.register(Client)
+admin.site.register(Customer)
+admin.site.register(Account)
+admin.site.register(LastTransaction)
+admin.site.register(Loan)
+admin.site.register(CustomerHomeAddress)
+admin.site.register(CustomerOffice)
+admin.site.register(CustomerGuarantor)
+admin.site.register(Source_details)
+admin.site.register(EmiDate)
+admin.site.register(Risk)
+admin.site.register(CollectionAgent)
+admin.site.register(Product)
+admin.site.register(Conversation_Wati)
+admin.site.register(ConversationWati)
+admin.site.register(CallingData)
+admin.site.register(BatchAttachment)
+admin.site.register(Action)
+admin.site.register(Convo_Wati_Acc_Numb)
+
+admin.site.register(CallingData1)
+admin.site.register(Wati_Webhook)

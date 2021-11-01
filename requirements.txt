@@ -1,0 +1,10 @@
+Django
+psycopg2-binary
+gunicorn
+djangorestframework
+python-dateutil
+xlrd
+django-filter
+requests
+awswrangler
+django-cors-headers

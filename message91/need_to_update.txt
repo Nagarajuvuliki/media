@@ -1,0 +1,21 @@
+    def update(self, request):
+        try:
+            batch_obj = Batch.objects.get(id=1)
+        except:
+            print('ERROR')
+            err_res = {
+                'status': False,
+                'message': 'invalid batrch_id.',
+                'data': None
+            }
+            return Response(err_res, status=status.HTTP_200_OK)
+
+        batch_serializer = BatchSerializer(batch_obj, data=request.data, partial=True)
+
+        if batch_serializer.is_valid():
+            batch_seria
+
+# DO NOT USE VARIABLES LIKE i, j etc.. these become hard to replace and even create issue in debugging
+# post_wati.py >> change the code according to your requirement, not just copy same code structure and please change the variable name accordingly.
+# aws mail >> # why using try except on line 55 abd 63, 
+#             # [I think we should break down our code in small small components.. so can we please cr
